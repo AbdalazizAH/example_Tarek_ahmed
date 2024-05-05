@@ -4,7 +4,7 @@ This Python script calculates water-oil relative permeability and generates plot
 
 ## Description
 
-The script defines a class `WOterFoolting` that calculates water-oil relative permeability (`kro/krw`) based on saturation values (`Sw`). It implements methods to compute the slope and intercept of the data, calculate the `fw` (water fractional flow), `dfw/dsw` (derivative of water fractional flow with respect to saturation), and print the results. Additionally, it provides methods to plot the data.
+The script defines a class `WOterFoolting` that calculates water-oil relative permeability (`kro/krw`) based on saturation values (`Sw`). It implements methods to compute the slope and intercept of the data, calculate the `fw` , `dfw/dsw` , and print the results. Additionally, it provides methods to plot the data.
 
 ## Prerequisites
 
