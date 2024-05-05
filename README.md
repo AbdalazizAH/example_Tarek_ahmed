@@ -30,7 +30,7 @@ from sympy import symbols, solve
 
 from data import ex  # Import your data
 
-from your_script_name import WOterFoolting  # Import the class from your script
+from woter_floot import WOterFoolting  # Import the class from your script
 
 # Use your data to create an instance of the class
 sw = ex["sw"]
