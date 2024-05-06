@@ -32,12 +32,16 @@ from data import ex  # Import your data
 
 from woter_floot import WOterFoolting  # Import the class from your script
 
-# Use your data to create an instance of the class
-sw = ex["sw"]
-kr = ex["kro_krw"]
-sol = WOterFoolting(sw, kr)
 
-# Example usage:
-sol.prsint_data()  # Print the calculated values
-sol.plot1()        # Plot kro/krw vs. Sw
-sol.plot2()        # Plot additional data (if implemented)
+# Data
+sw = d.ex["sw"]
+kr = d.ex["kro_krw"]
+sw_assumed = d.assumed_sw
+ts = [20.30,40 ,50 ,60] #after 
+A = d.td['A']
+Iw = d.td["Iw"]
+ph = d.td["ph"]
+test = WOterFoolting(sw, kr, ts, Iw, ph, A, sw_assumed)
+
+#test plots
+test.plots()
